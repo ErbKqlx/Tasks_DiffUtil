@@ -29,6 +29,7 @@ android {
     }
     buildFeatures{
         dataBinding = true
+
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -40,7 +41,7 @@ android {
 }
 
 dependencies {
-
+    implementation ("androidx.recyclerview:recyclerview:1.4.0")
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.8.7")
     implementation ("androidx.room:room-runtime:2.6.1")
